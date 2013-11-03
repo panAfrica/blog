@@ -17,4 +17,4 @@ django-classy-tags
 django-mptt
 django-sekizai
 html5lib
-
+django-reversion
