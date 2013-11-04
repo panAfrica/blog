@@ -154,6 +154,8 @@ TEMPLATE_CONTEXT_PROCESSORS = (
     'sekizai.context_processors.sekizai',
 )
 
+TEMPLATE_DIRS = ( os.path.join(PROJECT_PATH, 'templates'), )
+
 
 CMS_TEMPLATES = (
     ('template_1.html', 'Template One'),
